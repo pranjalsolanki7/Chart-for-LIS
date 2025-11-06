@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lotus International School – General Knowledge Club</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container head-wrap">
+      <div class="brand" aria-label="School heading">
+        <div class="school">LOTUS INTERNATIONAL SCHOOL</div>
+        <div class="club">GENERAL KNOWLEDGE CLUB</div>
+      </div>
+      <div class="tools">
+        <div class="search" role="search">
+          <input id="q" type="search" placeholder="Search exam / full form / career… (e.g., UPSC, PO, Teacher)" aria-label="Search exams" />
+          <button id="clear" title="Clear">✕</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="hint muted">Filter live: type any exam, full form, or career — results update instantly.</p>
+    </section>
+
+    <!-- Grid of Section Cards -->
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="container">
+    <div class="thought">“Success is not for selected people, it’s for consistent people.”</div>
+    <div class="byline">— By Pranjal Solanki Ma’am</div>
+  </footer>
+
+  <button class="topbtn" id="topBtn" aria-label="Back to top">↑ Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
