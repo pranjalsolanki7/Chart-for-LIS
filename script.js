@@ -45,7 +45,7 @@ const DATA = [
     ]
   },
   {
-    title: "Defence & Armed Forces",
+    title: "Defence & Armed Forces(Only For Mathematics Branch)",
     class: "c6",
     items: [
       { short: "NDA", full: "National Defence Academy", career: "Army / Navy / Airforce Officer Training" },
@@ -64,7 +64,7 @@ const DATA = [
     ]
   },
   {
-    title: "Engineering & Technical",
+    title: "Engineering & Technical (Only for Mathematics branch)",
     class: "c8",
     items: [
       { short: "JEE", full: "Joint Entrance Examination", career: "B.Tech (IIT/NIT/IIIT)" },
@@ -73,7 +73,7 @@ const DATA = [
     ]
   },
   {
-    title: "Medical & Nursing",
+    title: "Medical & Nursing (Only for Biology Stream)",
     class: "c9",
     items: [
       { short: "NEET", full: "National Eligibility cum Entrance Test", career: "MBBS / BDS" },
@@ -140,3 +140,4 @@ clear.addEventListener('click', ()=>{ q.value=''; q.focus(); doFilter(); });
 document.getElementById('topBtn').addEventListener('click', ()=>{
   window.scrollTo({top:0, behavior:'smooth'});
 });
+
